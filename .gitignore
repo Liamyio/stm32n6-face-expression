@@ -1,0 +1,16 @@
+# 构建产物
+build/
+*.o
+*.obj
+*.elf
+*.map
+*.a
+*.bin
+*.hex
+# 例外：人脸模型权重数据（开源模型，非构建产物）
+!01_双模型主工程/face_net-data.hex
+
+# 工具缓存
+__pycache__/
+*.pyc
+.DS_Store
